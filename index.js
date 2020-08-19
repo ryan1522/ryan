@@ -8,7 +8,7 @@ const byeChannelComment = "안녕히가세요.";
 
 client.on('ready', () => {
   console.log('켰다.');
-  client.user.setPresence({ game: { name: '우산봇을 넣고싶으면 개인 디엠' }, status: 'online' })
+  client.user.setPresence({ game: { name: '우산봇 문의는 DM' }, status: 'online' })
 });
 
 client.on("guildMemberAdd", (member) => {
